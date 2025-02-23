@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Creator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+
+  <h1>Card Creator</h1>
+  <form id="card-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+  <label for="image">Image:</label>
+  <select id="image" name="image">
+    <option value="airbnb.png">Airbnb</option>
+    <option value="background-hero">Background Hero</option>
+    <option value="coty">Coty</option>
+    <option value="lilly">Lilly</option>
+    <option value="microsoft">Microsoft</option>
+    <option value="tailus">Tailus</option>
+  </select>
+
+  <label for="logo">Logo:</label>
+  <select id="logo" name="logo">
+    <option value="client-8">Client-8</option>
+    <option value="lifegroups">Lifegroups</option>
+    <option value="lilly">Lilly</option>
+    <option value="myob">MYOB</option>
+    <option value="thought">Thought</option>
+    <option value="training">Training</option> 
+  </select>  <br><br>
+
+    <label for="description">Description:</label>
+    <textarea id="description" name="description"></textarea><br><br>
+    <button id="submit-btn">Create Card</button>
+  </form>
+  <div id="card-container"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
